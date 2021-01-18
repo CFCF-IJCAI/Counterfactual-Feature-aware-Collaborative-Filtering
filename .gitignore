@@ -1,0 +1,10 @@
+*.npy
+*.pyc
+result/*
+data/*
+log/*
+casefind/*
+__pycache__/*
+results/*
+*ipnb*
+script/*

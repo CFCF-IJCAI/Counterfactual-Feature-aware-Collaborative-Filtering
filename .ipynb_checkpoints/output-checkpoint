@@ -1,0 +1,19 @@
+current envirment: cuda
+loading data ...
+{'user_number': 3493, 'item_number': 3530, 'feature_number': 574}
+args:  Namespace(K=10, anchor_model=4, balanced_multiply=1.0, batch_size=32, case_model=-1, confidence=0.693, data_path='./data/Digital_Music/', embedding_dim=50, epoch_number=40, f_embedding_dim=90, intervener_batch_size=17455, intervener_feature_number=20, intervener_iteration=1000, intervener_l1_reg=0.01, intervener_learning_rate=0.0001, intervener_reg=0.3, intervener_soft=False, learning_rate=0.01, optimizer='sgd', reg=0.0001)
+args:  Namespace(K=10, anchor_model=4, balanced_multiply=1.0, batch_size=32, case_model=-1, confidence=0.693, data_path='./data/Digital_Music/', embedding_dim=50, epoch_number=40, f_embedding_dim=90, intervener_batch_size=17455, intervener_feature_number=20, intervener_iteration=1000, intervener_l1_reg=0.01, intervener_learning_rate=0.0001, intervener_reg=0.3, intervener_soft=False, learning_rate=0.01, optimizer='sgd', reg=0.0001)
+model loading ...
+Anchor(
+  (user_embedding_matrix): Embedding(3493, 80)
+  (item_embedding_matrix): Embedding(3530, 80)
+  (feature_embedding_matrix): Embedding(574, 30)
+  (bi_cross_entropy): BCELoss()
+  (sigmoid): Sigmoid()
+  (relu): ReLU()
+  (tanh): Tanh()
+  (fc1): Linear(in_features=110, out_features=10, bias=True)
+  (bn): BatchNorm1d(110, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (fc2): Linear(in_features=10, out_features=1, bias=True)
+)
+&&&&&&&&&&&&&&&&&&&& original testing performance &&&&&&&&&&&&&&&&&&&&

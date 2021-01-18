@@ -1,0 +1,1 @@
+python main.py --data_path ./data/Amazon_Instant_Video/ --f_embedding_dim 50 --embedding_dim 90  --batch_size 128 --reg 0.0001 --confidence -0.7 --learning_rate 0.01 --anchor_model 4 --intervener_learning_rate 0.1 --intervener_iteration 10000 --intervener_soft True --intervener_reg 0 --intervener_l1_reg 0.00001 --intervener_batch_size 200 --intervener_feature_number 100
