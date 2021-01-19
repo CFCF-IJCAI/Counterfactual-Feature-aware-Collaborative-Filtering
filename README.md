@@ -77,3 +77,11 @@ python main.py data_path=./data/Amazon_Instant_Video anchor_model=1  # train the
 mv ./data/Amazon_Instant_Video/anchor.ptr ./data/Amazon_Instant_Video/anchor_best.ptr  # change name of saved model to 'anchor_best.ptr'
 python main.py data_path=./data/Amazon_Instant_Video anchor_model=2  # generate the counterfactual sample and finetune the anchor model (Raw CF model)
 ```
+
+## Results
+
+![image](https://github.com/CFCF-IJCAI/Counterfactual-Feature-aware-Collaborative-Filtering/blob/master/results.png?raw=true)
+
+## Cases
+
+![image](https://github.com/CFCF-IJCAI/Counterfactual-Feature-aware-Collaborative-Filtering/blob/master/case.png?raw=true)
