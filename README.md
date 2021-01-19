@@ -1,9 +1,5 @@
 # [Code Submission] Neural Feature-aware Recommendation with Signed Hypergraph Convolutional Network
 
-
-
-![image](https://github.com/code4review/TOIS/raw/master/img/intro.png)
-
 ## Requirements
 
 - Python 3.6.9
