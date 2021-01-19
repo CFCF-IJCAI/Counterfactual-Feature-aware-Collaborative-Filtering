@@ -15,7 +15,6 @@
     |-- data_loader.py     # the dataloader class of our amazon dataset with textual feature 
     |-- main.py            # the training logic of our CFCF method. change the anchor_model as 1|2|3|4|5 to change to different logic
     |-- model              # the model directory. contain anchor model and the intervener model
-    |   |-- CounterFea.py (deprecated)
     |   |-- IF_Qua.py
     |   |-- UF_Att.py
     |   |-- __init__.py
@@ -36,9 +35,6 @@ data directory will like following:
         |-- Amazon_Instant_Video.formated
         |-- anchor.ptr
         |-- anchor_best.ptr
-        |-- anchor_best43.ptr
-        |-- anchor_best53.ptr
-        |-- anchor_best_45.ptr
         |-- feature_id_dict
         |-- id_feature_dict
         |-- id_item_dict
@@ -57,9 +53,6 @@ data directory will like following:
         |-- train_user_positive_items_dict
         |-- user_feature_attention_matrix
         `-- user_id_dict
-    |-- __init__.py
-    |-- dataset_process.py
-    |-- dataset_process_1.py
 
 ## Usage
 
