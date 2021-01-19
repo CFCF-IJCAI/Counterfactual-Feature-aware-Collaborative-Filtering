@@ -62,9 +62,9 @@ data directory will like following:
 
 3. Run 
 ```
-python main.py data_path=./data/Amazon_Instant_Video anchor_model=1  # train the anchor model and save it
+python main.py --data_path=./data/Amazon_Instant_Video --anchor_model=1  # train the anchor model and save it
 mv ./data/Amazon_Instant_Video/anchor.ptr ./data/Amazon_Instant_Video/anchor_best.ptr  # change name of saved model to 'anchor_best.ptr'
-python main.py data_path=./data/Amazon_Instant_Video anchor_model=2  # generate the counterfactual sample and finetune the anchor model (Raw CF model)
+python main.py --data_path=./data/Amazon_Instant_Video --anchor_model=2  # generate the counterfactual sample and finetune the anchor model (Raw CF model)
 ```
 
 ## Results
