@@ -15,8 +15,6 @@
     |-- data_loader.py     # the dataloader class of our amazon dataset with textual feature 
     |-- main.py            # the training logic of our CFCF method. change the anchor_model as 1|2|3|4|5 to change to different logic
     |-- model              # the model directory. contain anchor model and the intervener model
-    |   |-- IF_Qua.py
-    |   |-- UF_Att.py
     |   |-- __init__.py
     |   |-- anchor_model.py # the f model in our paper
     |   `-- intervention_model.py # counter factual sample method
